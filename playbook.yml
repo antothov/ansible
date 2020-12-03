@@ -1,0 +1,7 @@
+- name: my first playbook
+  hosts:
+     - devices
+
+  tasks:
+     - name: "hostname is {{ ansible_hostname }}"
+       shell: hostname
