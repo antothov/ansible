@@ -1,6 +1,6 @@
 - name: my first playbook
   hosts:
-     - localhost
+     - centos
 
   tasks:
      - name: "hostname is {{ ansible_hostname }}"
